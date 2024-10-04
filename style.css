@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color: #F4D04E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box{
+    margin-top: 219px;
+    margin-bottom: 219px;
+    width: 384px;
+    height: 522px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: rgb(17, 17, 17) solid 1px;
+    box-shadow: rgb(17, 17, 17) 7px 7px;
+}   
+#img1{
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 20px;
+}
+p{
+    line-height: 150%;
+    letter-spacing: 0;
+    margin: 0px 25px;
+}
+#text1{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #F4D04E;
+    display: inline-block;
+    color: rgb(17, 17, 17);
+    margin: 20px 0 10px 25px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+#text2{
+    font-size: 14px;
+    color: rgb(17, 17, 17);
+}
+#text3{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(17, 17, 17);
+    padding: 10px 0;
+}
+#text4{
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+}
+#text5{
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(17, 17, 17);
+    display: inline;
+    margin-left: 15px;
+    
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.avatar img{
+    width: 32px;
+    margin-left: 20px;
+    
+}
+.attribution{
+  margin-top: 98%;
+   }
+#text3:hover{
+    cursor: pointer;
+    color: #F4D04E;
+}
+   @media screen and (max-width:400px){
+ 
+    .box{
+        margin-top: 155px;
+        margin-bottom: 155px;
+        width: 327px;
+        height: 501px;
+    }   
+    #img1{
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-radius: 20px;
+        height: 200px;
+        width: 279px;
+               
+    }
+    #text1{
+        font-size: 12px;
+
+    }
+    #text2{
+        font-size: 12px;
+    }
+    #text3{
+        font-size: 20px;
+        margin: 10px 0 10px 25px;
+    }
+    #text4{
+        font-size: 14px;
+    }
+    .avatar{
+        margin-top: 20px;
+    }
+
+
+   }
